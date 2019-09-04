@@ -1,7 +1,7 @@
-# Личный проект «Седона»
+﻿# Личный проект «Седона»
 
 * Студент: [Marina Lipinava](https://up.htmlacademy.ru/htmlcss/26/user/594083).
-* Наставник: `Неизвестно`.
+* Наставник: [Liliya Zilyukina](https://htmlacademy.ru/profile/id803445).
 
 ---
 
