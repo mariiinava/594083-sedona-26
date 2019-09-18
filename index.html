@@ -9,14 +9,14 @@
 <body>
   <header>
     <nav>
-      <a href="">
+      <a href="#">
         <img src="img/logo.svg" width="140" height="70" alt="Логотип Город Седона">
       </a>
       <ul>
-        <li><a href="">Информация</a></li>
-        <li><a href="">Фото и видео</a></li>
-        <li><a href="">Карта штата</a></li>
-        <li><a href="">Гостиницы</a></li>
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Фото и видео</a></li>
+        <li><a href="#">Карта штата</a></li>
+        <li><a href="#">Гостиницы</a></li>
       </ul>
     </nav>
   </header>
@@ -89,7 +89,27 @@
       <h2>Заинтересовались?</h2>
       <p>Укажите предполагаемые даты поездки, и мы покажем
         вам лучшие предложения гостиниц в Седоне</p>
-      <!--Здесь будет форма-->
+      <form action="" merhod="get">
+        <p>
+          <label for="date-arrival">Дата заезда</label>
+          <input id="date-arrival" type="date" name="arrival">          
+        </p>
+        <p>
+          <label for="date-departure">Дата выезда</label>
+          <input id="date-departure" type="date" name="departure">          
+        </p>
+        <p>
+          <label for="number-adults">Взрослые</label>
+          <input id="number-adults" type="number" name="adults" placeholder="2">          
+        </p>
+        <p>
+          <label for="number-kids">Дети</label>
+          <input id="number-kids" type="number" name="kids" placeholder="0">          
+        </p>
+        <button type="submit">
+          Найти
+        </button>
+        </form>               
     </section>
     <section>
       <h2>Местоположение</h2>
@@ -98,10 +118,10 @@
 
   </main>
   <footer>
-    <div class="">
+    <div class="tag-visitsedona">
       <p>#Visitsedona</p>
     </div>
-    <div class="">
+    <div class="social">
       <ul>
         <li>
           <a href="#">
@@ -120,7 +140,7 @@
         </li>
       </ul>
     </div>
-    <div class="">
+    <div class="copyright">
       <p>Website by</p>
       <a href="https://htmlacademy.ru/intensive/htmlcss">
         <img src="img/logo_htmlacademy.svg" width="115" height="40" alt="логотип HTML academy">
