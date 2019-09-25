@@ -88,51 +88,55 @@
       <p>Большинство едет в Гранд Каньон и толпится там</p>
     </section>
 
-    <section class="search-hotel">
+    <section class="search">
       <h2>Заинтересовались?</h2>
       <p>Укажите предполагаемые даты поездки, и мы покажем
         вам лучшие предложения гостиниц в Седоне</p>
-      <form action="https://echo.htmlacademy.ru" method="get">
-        <p>
-          <label for="date-arrival">Дата заезда</label>
-          <input id="date-arrival" type="text" name="arrival" value="24 апреля 2017">
-          <button type="button" area-label="Открыть календарь">
-            <img src="img/calendar.svg" width="21" height="22" alt="Открыть календарь">
-          </button>        
-        </p>
-        <p>
-          <label for="date-departure">Дата выезда</label>
-          <input id="date-departure" type="text" name="departure" value="4 июля 2017">
-          <button type="button" area-label="Открыть календарь">
-            <img src="img/calendar.svg" width="21" height="22" alt="Открыть календарь">
-          </button>        
-        </p>
-        <p>
-          <label for="number-adults">Взрослые</label>
-          <input id="number-adults" type="number" name="adults" placeholder="2"> 
-          <button type="button" aria-label="Минус взрослый">
-            <img src="img/minus.svg" width="12" height="3" alt="Минус взрослый">
+    
+      <section class="search-hotel">
+        <h3>Поиск гостиницы в Седоне</h3>
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <p class="date-arrival">
+            <label for="date-arrival">Дата заезда</label>
+            <input id="date-arrival" type="text" name="arrival" value="24 апреля 2017">
+            <button type="button" area-label="Открыть календарь">
+              <img src="img/calendar.svg" width="21" height="22" alt="Открыть календарь">
+            </button>        
+          </p>
+          <p class="date-departure">
+            <label for="date-departure">Дата выезда</label>
+            <input id="date-departure" type="text" name="departure" value="4 июля 2017">
+            <button type="button" area-label="Открыть календарь">
+              <img src="img/calendar.svg" width="21" height="22" alt="Открыть календарь">
+            </button>        
+          </p>
+          <p class="number-adults">
+            <label for="number-adults">Взрослые</label>
+            <input id="number-adults" type="number" name="adults" placeholder="2"> 
+            <button type="button" aria-label="Минус взрослый">
+              <img src="img/minus.svg" width="12" height="3" alt="Минус взрослый">
+            </button>
+            <button type="button" area-label="Плюс взрослый">
+              <img src="img/plus.svg" width="11" height="11" alt="Плюс взрослый">
+            </button>     
+          </p>
+          <p class="number-kids">
+            <label for="number-kids">Дети</label>
+            <input id="number-kids" type="number" name="kids" placeholder="0">
+          <button type="button" area-label="Минус ребенок">
+            <img src="img/minus.svg" width="12" height="3" alt="Минус ребенок">
           </button>
-          <button type="button" area-label="Плюс взрослый">
-            <img src="img/plus.svg" width="11" height="11" alt="Плюс взрослый">
-          </button>     
-        </p>
-        <p>
-          <label for="number-kids">Дети</label>
-          <input id="number-kids" type="number" name="kids" placeholder="0">
-        <button type="button" area-label="Минус ребенок">
-          <img src="img/minus.svg" width="12" height="3" alt="Минус ребенок">
-        </button>
-        <button type="button"area-label="Плюс ребенок">
-          <img src="img/plus.svg" width="11" height="11" alt="Плюс ребенок">
-        </button>          
-        </p>
-        <button type="submit">
-          Найти
-        </button>
-        </form>               
+          <button type="button"area-label="Плюс ребенок">
+            <img src="img/plus.svg" width="11" height="11" alt="Плюс ребенок">
+          </button>          
+          </p>
+          <button class="button" type="submit">
+            Найти
+          </button>
+          </form>               
+      </section>
     </section>
-    <section>
+    <section class="map-img">
       <h2>Местоположение</h2>
       <img src="img/map.jpg" width="1200" height="695" alt="Местоположение">
     </section>
@@ -162,9 +166,9 @@
       </ul>
     </div>
     <div class="copyright">
-      <p>Website by</p>
       <a href="https://htmlacademy.ru/intensive/htmlcss">
-        <img src="img/logo_htmlacademy.svg" width="115" height="40" alt="логотип HTML academy">
+        <p>Website by</p>
+        <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="логотип HTML academy">
       </a>
     </div>
   </footer>
