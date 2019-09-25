@@ -15,3 +15,21 @@ body {
 a {
     text-decoration: none;
 }
+
+.navigation {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* ul .info,
+ .gallery {
+    text-align: left;
+} */
