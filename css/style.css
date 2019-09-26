@@ -18,29 +18,29 @@ a {
     text-decoration: none;
 }
 
-.navigation {
+.navigation a,
+.habitation a {
     font-weight: 700;
     color: #000000;
 }
 
-/* .navigation a:hover,
-.navigation a:focus {
+.navigation a:hover,
+.habitation a:hover {
+    color: #81b3d2;
+}    
 
-}     */
+.navigation a:focus,
+.habitation a:focus {
+    color: #b7b7b7;
+}
+
+.navigation a:active {
+    color: #766357;
+}
     
 ul {  
     list-style: none;
 }
-
-/* ul .info,
- .gallery {
-    text-align: left;
-} */
-
-/* ul .map,
-.hotels {
-    text-align: right;
-} */
 
 .welcome {
     background-color: #3d79a6;
@@ -48,8 +48,15 @@ ul {
     background-position: center;
 }
 
-h1 {
-    display: none;
+.visually-hidden {
+    position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .description {
@@ -84,10 +91,38 @@ h1 {
     background-color: #766357;
 }
 
+.search-hotel h3:hover,
+.button-reservation:hover {
+    background-color: #604e43;
+}
+
+.search-hotel h3:active,
+.button-reservation:active {
+    color: #857871;
+    background-color: #503e33;
+}
+
+.stars a {
+    font-weight: 400;
+}
+
 .search-hotel label, input{
     font-weight: 700;
     text-transform: uppercase;
     color: #000000;
+}
+
+.search-hotel input,
+.stars a {
+    background-color: #f2f2f2;
+}
+
+.search-hotel input:hover {
+    background-color: #ebebeb;
+}
+
+.search-hotel input:focus {
+    background-color: #ffffff;
 }
 
 .button {
@@ -101,11 +136,21 @@ h1 {
     border: none;
 }
 
-.map-img h2 {
-    display: none;
+.button:hover {
+    background-color: #669ec0;
+}
+
+.button:active {
+    background-color: #5496bd;
+}
+
+.habitation {
+    font-size: 21px;
+    line-height: 26px;
 }
 
 .tag-visitsedona {
+    font-size: 21px;
     font-weight: 700;
     color: #000000;
 }
