@@ -18,8 +18,7 @@ a {
     text-decoration: none;
 }
 
-.navigation a,
-.habitation a {
+.navigation a {
     font-weight: 700;
     color: #000000;
 }
@@ -91,6 +90,12 @@ ul {
     background-color: #766357;
 }
 
+.button-reservation {
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #766357;
+}
+
 .search-hotel h3:hover,
 .button-reservation:hover {
     background-color: #604e43;
@@ -102,7 +107,7 @@ ul {
     background-color: #503e33;
 }
 
-.stars a {
+.stars p {
     font-weight: 400;
 }
 
@@ -113,7 +118,7 @@ ul {
 }
 
 .search-hotel input,
-.stars a {
+.stars p{
     background-color: #f2f2f2;
 }
 
@@ -155,3 +160,9 @@ ul {
     color: #000000;
 }
 
+.twitter,
+.facebook,
+.youtube {
+    background-color: #3d79a6;
+
+}
