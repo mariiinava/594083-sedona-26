@@ -18,7 +18,11 @@ a {
     text-decoration: none;
 }
 
-.navigation a {
+.habitation h2 a {
+    font-size: 21px;
+}
+
+.navigation a, .habitation h2 a {
     font-weight: 700;
     color: #000000;
 }
@@ -79,7 +83,7 @@ ul {
 }
 
 .search p {
-    line-height: 26px;
+    line-height: 24px;
 }
 
 .search-hotel h3{
@@ -141,11 +145,49 @@ ul {
     border: none;
 }
 
-.button:hover {
+.button:hover,
+.social li:hover {
     background-color: #669ec0;
 }
 
 .button:active {
+    color: #88b6d1;
+    background-color: #5496bd;
+}
+
+.button-calendar svg {
+    fill: #cacaca;
+}
+
+.button-calendar svg:hover {
+    fill: #000000;
+}
+
+.button-calendar svg:active {
+    fill: #81b3d2;
+}
+
+.button-minus,
+.button-plus {
+    font-weight: 700;
+    color: #a9a9a9;
+}
+
+.button-minus:hover,
+.button-plus:hover {
+    color: #000000;
+}
+
+.button-minus:active,
+.button-plus:active {
+    color: #81b3d2;
+}
+
+.social svg:active {
+    fill:  #88b6d1;
+}
+
+.social li:active {
     background-color: #5496bd;
 }
 
@@ -160,9 +202,28 @@ ul {
     color: #000000;
 }
 
-.twitter,
-.facebook,
-.youtube {
-    background-color: #3d79a6;
+.social svg {
+    width: 100px;
+    fill: #ffffff;
+}
 
+.social li {
+    background-color: #81b3d2;
+}
+
+.copyright p {
+    color: #000000;
+}
+
+.copyright svg {
+    width: 100px;
+    fill: #000000;
+}
+
+.copyright svg:hover {
+    fill: #81b3d2;
+}
+
+.copyright svg:active {
+    fill: #bdbbbc;
 }
